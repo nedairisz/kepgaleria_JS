@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.galeria .kep {
+    flex: 0 0 150px;
+}
+.galeria img {
+  width: 100%;
+}
+
+.nagykep div {
+  
+    
+}
+
+
+
+.nagykep {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray; 
+    border-radius: 10px;
+}
+.nagykep img {
+    width: 100%;
+    padding: 10px;
+}
+
