@@ -22,7 +22,7 @@ const kiskepELEMEK=document.querySelectorAll(".kep")//LISTA!!
 /* eseménykezelő hozzáadása a kisképekhez, ciklussal */
 for (let index = 0; index < kiskepELEMEK.length; index++) {
     //const element = kiskepELEMEK[index];
-    kiskepELEMEK[index].addEventListener("clisck", function(event){
+    kiskepELEMEK[index].addEventListener("click", function(event){
         console.log(event.target.src)
         nagyimgELEM.src=event.target.src
     })
